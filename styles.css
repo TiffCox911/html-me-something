@@ -1,0 +1,34 @@
+h1{
+  
+  text-align: center;
+  font-size:40px;
+}
+.details{
+  border-color: lightskyblue;
+}
+
+p{
+  margin-right: 300px;
+  margin-left: 80 px;
+  padding:30px;
+  text-align: initial;
+  text-indent: 20;
+  font-size: 18px;
+  margin-top: -32px;
+ 
+}
+
+img{
+  margin-right: 300px;
+  margin-left: 80 px;
+  padding:27px;
+
+}
+
+h2{
+  margin-right: 300px;
+  margin-bottom: 2%;
+  
+  margin-top: 67px;
+  color:lightsteelblue;
+}
