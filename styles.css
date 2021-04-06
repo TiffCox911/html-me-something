@@ -1,34 +1,199 @@
-h1{
+*
+{
+    margin: 0; 
+    padding: 0;
+    
+}
+header
+{
   
+    background-size: cover;
+    background-position: center;
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li a 
+{
+    color: black;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid black;
+
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid red;
+
+}
+
+.logo img
+{
+  width: 75px;
+  height: auto;
+  float: left;
+}
+
+body
+{
+  font-family: monospace;
+}
+
+.row
+{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.hello
+{
+  position: absolute;
+  width: 1200px;
+  margin-left:  0px;
+  margin-top: 0px;
+
+}
+
+h1
+{
+  color: rgb(227, 238, 125);
+  text-transform: uppercase;
+  font-size: 80px;
+  text-align: right;
+  margin-top: 300px;
+}
+
+h2
+{
+  color: darkgoldenrod;
+  text-transform: uppercase;
+  font-size: 36px;
   text-align: center;
-  font-size:40px;
-}
-.details{
-  border-color: lightskyblue;
+  margin-top: 10px;
 }
 
-p{
-  margin-right: 300px;
-  margin-left: 80 px;
-  padding:30px;
-  text-align: initial;
-  text-indent: 20;
-  font-size: 18px;
-  margin-top: -32px;
- 
+p
+{
+  color:darkgray;
 }
 
-img{
-  margin-right: 300px;
-  margin-left: 80 px;
-  padding:27px;
+h3
+{
+  margin-top:10px;
+}
+
+.button
+{
+  margin-top: 30px;
+  margin-left: 440px;
+}
+
+.btn
+{
+  border: 1px solid black;
+  padding: 10px 30px;
+  color: black;
+  text-decoration: none;
+  margin-right: 5px;
+  font-size: 13px;
+  text-transform: uppercase;
 
 }
 
-h2{
-  margin-right: 300px;
-  margin-bottom: 2%;
+.btn-one
+{
+  background-color: lightcoral;
+  font-family: "Roboto", sans-serif;
+}
+
+.btn-two
+{
   
-  margin-top: 67px;
-  color:lightsteelblue;
+  font-family: "Roboto", sans-serif;
+}
+
+.btn-two:hover
+{
+  background-color: lightcoral;
+  transition: all 0.5s ease-in;
+}
+
+.backgroundPicture img
+{
+  width:1450px;
+  height: 700px;
+  float: center;
+  margin-top: 10px;
+  
+}
+.row2 {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row2,
+.row2 > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  margin-left: 45px;
+}
+
+/* Clear floats after rows */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+#footer
+{
+  position: fixed;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            width: 100%;
+            /* Height of the footer*/ 
+            height: 40px;
+            background: grey;
+
 }
